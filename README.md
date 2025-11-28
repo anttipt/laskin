@@ -30,7 +30,7 @@ laskin/
 ## 💡 Kehitysideoita
 
 - Näppäimistötuki
-- Responsiivinen mobiiliversio
+- Responsiivinen mobiiliversio (toteutettu)
 - Tieteelliset funktiot (sin, cos, sqrt…)
 - Tumma teema
 - Testaus ja CI-workflow GitHubiin
