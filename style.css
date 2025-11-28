@@ -38,3 +38,49 @@ button {
   grid-column: span 4;
   background: #ffcccc;
 }
+/* Perustyyli (desktop) on jo olemassa, lisätään mobiilille erikseen) */
+
+/* Mobiililaitteet: näytön leveys alle 600px */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .calculator {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+  }
+
+  input[type="text"] {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .buttons {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+
+  button {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .clear {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+/* Hyvin pienet näytöt (alle 400px) */
+@media (max-width: 400px) {
+  .buttons {
+    grid-template-columns: repeat(2, 1fr); /* Näppäimet kahteen sarakkeeseen */
+  }
+
+  button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
