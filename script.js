@@ -15,3 +15,7 @@ function calculate() {
 function clearDisplay() {
   display.value = '';
 }
+
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+}

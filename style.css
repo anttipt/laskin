@@ -84,3 +84,59 @@ button {
     font-size: 14px;
   }
 }
+/* Tumma teema */
+body.dark {
+  background: #121212;
+  color: #f0f0f0;
+}
+
+body.dark .calculator {
+  background: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+body.dark input[type="text"] {
+  background: #2a2a2a;
+  color: #f0f0f0;
+  border: none;
+}
+
+body.dark button {
+  background: #333;
+  color: #f0f0f0;
+}
+
+body.dark button:hover {
+  background: #444;
+}
+
+body.dark .clear {
+  background: #663333;
+}
+
+.theme-toggle {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #0077cc;   /* sininen tausta */
+  color: #fff;           /* valkoinen teksti */
+  transition: background 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background: #005fa3;   /* tummempi sininen hover-tilassa */
+}
+
+body.dark .theme-toggle {
+  background: #ffaa00;   /* tumma teema: oranssi nappi */
+  color: #000;
+}
+
+body.dark .theme-toggle:hover {
+  background: #cc8800;   /* hover-tilassa tummempi oranssi */
+}

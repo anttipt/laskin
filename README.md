@@ -32,6 +32,6 @@ laskin/
 - Näppäimistötuki
 - Responsiivinen mobiiliversio (toteutettu)
 - Tieteelliset funktiot (sin, cos, sqrt…)
-- Tumma teema
+- Tumma teema (toteutettu)
 - Testaus ja CI-workflow GitHubiin
 
